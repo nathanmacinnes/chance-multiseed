@@ -1,0 +1,22 @@
+{
+  "name": "chance-multiseed",
+  "version": "1.0.0",
+  "description": "A simple wrapper around chance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanmacinnes/chance-multiseed.git"
+  },
+  "author": "Nathan MacInnes <nathan@macinn.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanmacinnes/chance-multiseed/issues"
+  },
+  "homepage": "https://github.com/nathanmacinnes/chance-multiseed",
+  "dependencies": {
+    "chance": "^0.6.3"
+  }
+}
