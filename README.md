@@ -8,16 +8,20 @@ this:
 ````js
 var cm = require("chance-multiseed");
 
-var masterKey = 12345,
-    random;
+describe("myFunction", function () {
+    var masterKey = 12345,
+        myFunction,
+        random;
 
-beforeEach(function () {
-    random = cm(masterKey, this.currentTest.title);
-});
+    beforeEach(function () {
+        myFunction = require("../lib/myFunction");
+        random = cm(masterKey, this.currentTest.title);
+    });
 
-it("always returns 4", function () {
-    var result = myFunction(random.string());
-    assert.equal(result, 4);
+    it("always returns 4", function () {
+        var result = myFunction(random.string());
+        assert.equal(result, 4);
+    });
 });
 ````
 
