@@ -20,3 +20,7 @@ it("always returns 4", function () {
     assert.equal(result, 4);
 });
 ````
+
+This ensures that my code under test is in theory capable of processing anything
+which the random function can generate, but tests are fully repeatable should a
+particular value cause anything to fail.
